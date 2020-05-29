@@ -1195,3 +1195,23 @@ div:after {
         background-color: #00838f;
     }
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagination li {
+    margin: 0 10px;
+}
+
+.pagination li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: #ffc107;
+    border-radius: 50%;
+}
